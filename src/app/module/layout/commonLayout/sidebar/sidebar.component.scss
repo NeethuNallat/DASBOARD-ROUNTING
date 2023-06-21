@@ -1,0 +1,17 @@
+.main-sidebar{
+    background-color: cadetblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    z-index: 3;
+    .container{
+        width: 100%;
+        .row{
+            button{
+                padding: 0.5rem 1rem 0.5rem 1rem;
+            }
+        }
+    }
+}
